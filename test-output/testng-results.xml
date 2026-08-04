@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-08-03T21:16:57 IST" name="Suite" finished-at="2026-08-03T21:17:24 IST" duration-ms="26671">
+    <groups>
+      <group name="InvalidLogin">
+        <method signature="InvalidLogin.VerifyInvalidLogin()[pri:0, instance:Test.InvalidLogin@22f59fa]" name="VerifyInvalidLogin" class="Test.InvalidLogin"/>
+      </group> <!-- InvalidLogin -->
+    </groups>
+    <test started-at="2026-08-03T21:16:57 IST" name="Test1" finished-at="2026-08-03T21:17:02 IST" duration-ms="5136">
+      <class name="Test.InvalidLogin">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:Test.InvalidLogin@22f59fa]" started-at="2026-08-03T21:16:57 IST" name="launchBrowser" finished-at="2026-08-03T21:16:59 IST" duration-ms="2511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="VerifyInvalidLogin()[pri:0, instance:Test.InvalidLogin@22f59fa]" started-at="2026-08-03T21:16:59 IST" name="VerifyInvalidLogin" finished-at="2026-08-03T21:17:02 IST" duration-ms="2212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInvalidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.InvalidLogin@22f59fa]" started-at="2026-08-03T21:17:02 IST" name="tearDown" finished-at="2026-08-03T21:17:02 IST" duration-ms="351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.InvalidLogin -->
+    </test> <!-- Test1 -->
+    <test started-at="2026-08-03T21:17:03 IST" name="Test2" finished-at="2026-08-03T21:17:24 IST" duration-ms="21027">
+      <class name="Test.UiTestFrameWork">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:Test.UiTestFrameWork@5f77d0f9]" started-at="2026-08-03T21:17:03 IST" name="launchBrowser" finished-at="2026-08-03T21:17:04 IST" duration-ms="1130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="PlaceOrderandVerifyHistoryPage(java.util.HashMap)[pri:0, instance:Test.UiTestFrameWork@5f77d0f9]" started-at="2026-08-03T21:17:04 IST" name="PlaceOrderandVerifyHistoryPage" data-provider="data2" finished-at="2026-08-03T21:17:12 IST" duration-ms="8474" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ProductName=ADIDAS ORIGINAL, UserName=naveengr653@gmail.com, Password=Test@Practice1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PlaceOrderandVerifyHistoryPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.UiTestFrameWork@5f77d0f9]" started-at="2026-08-03T21:17:12 IST" name="tearDown" finished-at="2026-08-03T21:17:13 IST" duration-ms="524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:Test.UiTestFrameWork@5f77d0f9]" started-at="2026-08-03T21:17:13 IST" name="launchBrowser" finished-at="2026-08-03T21:17:14 IST" duration-ms="1006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="PlaceOrderandVerifyHistoryPage(java.util.HashMap)[pri:0, instance:Test.UiTestFrameWork@5f77d0f9]" started-at="2026-08-03T21:17:14 IST" name="PlaceOrderandVerifyHistoryPage" data-provider="data2" finished-at="2026-08-03T21:17:23 IST" duration-ms="9526" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ProductName=ZARA COAT 3, UserName=naveen.can@gmail.com, Password=Test@123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PlaceOrderandVerifyHistoryPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.UiTestFrameWork@5f77d0f9]" started-at="2026-08-03T21:17:23 IST" name="tearDown" finished-at="2026-08-03T21:17:24 IST" duration-ms="350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.UiTestFrameWork -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
